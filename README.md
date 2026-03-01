@@ -2,12 +2,12 @@
 
 Regression models to predict apartment prices in Milan using advanced preprocessing.
 
-## 📌 Project Overview
+## Project Overview
 - **Dataset**: Milan housing (8k train, 4.8k test) - **private university dataset**
 - **Target**: Selling price per sqm (€, log scale)  
 - **Language**: R (mice, glmnet, mgcv/GAM)
 
-## 🔧 Pipeline Highlights
+## Pipeline Highlights
 1. **Feature Engineering** :
    - Text parsing "other features" → balcony, pool, jacuzzi, fiber, etc.
    - MICE + linear regression imputation (sqm, bathrooms, condo fees)
@@ -23,7 +23,7 @@ Regression models to predict apartment prices in Milan using advanced preprocess
    | Forward Reg.   | 83,835      | 
    | OLS Full       | 84,316      | 
 
-## 📂 Repository Contents
+## Repository Contents
 - `Codice.R` → Full preprocessing + modeling pipeline
 - `Report.pdf` → Complete analysis with methodology
 
